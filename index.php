@@ -6,6 +6,7 @@ $dir = __DIR__.'/Public/paginas/';
 $file = 'home.php';
 
 use App\Http\Login;
+use App\Http\Home;
 
 
 
@@ -22,7 +23,11 @@ $page = $_GET['page'];
 switch($page)
 {
     case '':
-        $teste = new Login;
-        $teste->index();
+        $formLogin = new Login;
+        $formLogin->index();
+        break;
+    case 'home':
+        $homeDashBorad = new Home;
+        $homeDashBorad->home();
         break;
 }
