@@ -5,8 +5,9 @@ require_once "./vendor/autoload.php"; //Adiciona o autoload
 $dir = __DIR__.'/Public/paginas/';
 $file = 'home.php';
 
-
-
+use App\Http\Home;
+$teste = new Home;
+$teste->index();
 
 
 
