@@ -6,6 +6,7 @@ class Home
 {
     public function index()
     {
-        echo "Hello Word!";
+        $msg = "Mensagem repassada do controller para a view.";
+        require_once "Public/paginas/home.php";
     }
 }
