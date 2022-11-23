@@ -5,7 +5,7 @@ require_once "./vendor/autoload.php"; //Adiciona o autoload
 $dir = __DIR__.'/Public/paginas/';
 $file = 'home.php';
 
-use App\Http\Home;
+use App\Http\Login;
 
 
 
@@ -22,7 +22,7 @@ $page = $_GET['page'];
 switch($page)
 {
     case '':
-        $teste = new Home;
+        $teste = new Login;
         $teste->index();
         break;
 }
