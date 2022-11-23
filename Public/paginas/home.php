@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="assets/images/icon.png" type="image/x-icon">
 </head>
 <body class="bg-dark">
     <div class="container p-5">

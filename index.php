@@ -6,8 +6,7 @@ $dir = __DIR__.'/Public/paginas/';
 $file = 'home.php';
 
 use App\Http\Home;
-$teste = new Home;
-$teste->index();
+
 
 
 
@@ -16,4 +15,14 @@ $teste->index();
 if(!file_exists($dir.$file))
 {
     echo "Erro ao tentar executar a aplicação";
+}
+
+$page = $_GET['page'];
+
+switch($page)
+{
+    case '':
+        $teste = new Home;
+        $teste->index();
+        break;
 }
