@@ -23,7 +23,7 @@
             <div class="row">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a href="#" class="nav-link active">Home</a>
+                        <a href="?page=home" class="nav-link active">Home</a>
                     </li>
                     <li class="nav-item">
                         <a href="#" class="nav-link">Ordem de Serviço</a>
