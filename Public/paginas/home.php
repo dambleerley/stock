@@ -13,7 +13,7 @@
 <body class="bg-dark">
     <div class="container p-5">
         <img src="assets/images/logo_white.png" class="mx-auto d-block" alt="Logo do sistema.">
-        <div class="card-body mt-5 mx-auto d-block" style="max-width:400px;">
+        <div class="card-body mt-5 mx-auto d-block" style="max-width:350px;">
             <form action="" method="post">
                 <input type="email" placeholder="E-Mail" class="mt-3 form-control">
                 <input type="password" placeholder="****" class="mt-3 form-control">
